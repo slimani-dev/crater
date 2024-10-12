@@ -16,6 +16,15 @@ class CurrenciesTableSeeder extends Seeder
     {
         $currencies = [
             [
+                'name' => 'DZD Dollar',
+                'code' => 'DZD',
+                'symbol' => 'DA',
+                'precision' => '2',
+                'thousand_separator' => ' ',
+                'decimal_separator' => '.',
+                'swap_currency_symbol' => true,
+            ],
+            [
                 'name' => 'US Dollar',
                 'code' => 'USD',
                 'symbol' => '$',
